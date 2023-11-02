@@ -53,7 +53,7 @@ public class CapsuleControl : MonoBehaviour
         //Shooting
         if (Input.GetMouseButtonDown(0) && canShoot)
         {
-            StartCoroutine(Shoot());
+            StartCoroutine(Shoot());s
         }
 
 
